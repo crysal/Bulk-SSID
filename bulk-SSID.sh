@@ -8,7 +8,7 @@ function prep(){
 	ifconfig wlan0 up
 }
 #if it's your first time running this script you most likely would need to run the --install to get the dependencies
-if  [ $1 == "--install" ]
+if  [ "$1" == "--install" ]
 then
 	wget https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2020.2_all.deb
 	apt install ./kali-archive-keyring_2020.2_all.deb
