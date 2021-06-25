@@ -15,7 +15,7 @@ _If you are reading this in the far future you might need to edit the **kali-arc
 
 2. Add script to crontab 
 
-do `crontab -e` and add `@reboot ./home/pi/Bulk-SSID/bulk-ssid.sh` replacing the path to where you store your script.
+do `crontab -e` and add `@reboot /./home/pi/Bulk-SSID/bulk-ssid.sh` replacing the path to where you store your script.
 
 ## Changing to fit your needs
 if you are running an external or strange Wireless adapter, get its name from `iwconfig` and replace `wlan0` in the script with your value.
