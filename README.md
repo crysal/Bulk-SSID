@@ -18,4 +18,4 @@ do `crontab -e` and add `@reboot ./home/pi/Bulk-SSID/bulk-ssid.sh` replacing the
 ## Changing to fit your needs
 if you are running an external or strange Wireless adapter, get its name from `iwconfig` and replace `wlan0` in the script with your value.
 
-the same for the wordlist, change the script to point at your wordlist. The wordlist is just what ever you want the SSIDs to be named
+the same for the wordlist, change the script to point at your wordlist. The wordlist is just what ever you want the SSIDs to be named,, each line has to be uniqe to put a number at the end or something
