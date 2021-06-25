@@ -17,7 +17,7 @@ then
 	apt-get update
 	apt-get install mdk3 macchanger pwgen --allow-unauthenticated --assume-yes
 	rm ./kali-archive-keyring_2020.2_all.deb
-	echo -e "to activate when powered on\nput this in crontab -e \n@reboot ./home/pi/Bulk-SSID/bulk-ssid.sh"
+	echo -e "to activate when powered on\nput this in crontab -e \n@reboot /./home/pi/Bulk-SSID/bulk-ssid.sh"
 	exit
 else
 	prep
