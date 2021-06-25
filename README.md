@@ -13,7 +13,7 @@ A way to advertise a list of SSID's.- buildt for Raspberry PI Zero W, can be use
 
 2. Add script to crontab 
 
-do `crontab -e` and add `@reboot ./home/pi/test/bulk-ssid.sh` replacing the path to where you store your script.
+do `crontab -e` and add `@reboot ./home/pi/Bulk-SSID/bulk-ssid.sh` replacing the path to where you store your script.
 
 ## Changing to fit your needs
 if you are running an external or strange Wireless adapter, get its name from `iwconfig` and replace `wlan0` in the script with your value.
