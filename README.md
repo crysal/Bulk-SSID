@@ -18,6 +18,7 @@ and just yes to everything that it asks for
 #### 0. Download the git
 
   `git clone https://github.com/crysal/Bulk-SSID`
+  
   `chmod +x Bulk-SSID/bulk-SSID.sh`
 
 #### 1. Run the install script
