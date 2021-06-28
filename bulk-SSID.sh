@@ -10,4 +10,5 @@ then
 else
 	airmon-ng start wlan0
 	mdk3 wlan0mon b -a -f /home/pi/Bulk-SSID/wordlist.txt
+	#mdk4 wlan0mon b -a -w n -m -f /home/pi/Bulk-SSID/wordlist.txt
 fi
