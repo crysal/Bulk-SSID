@@ -10,7 +10,7 @@ if you are running on a pi zero and want to use the onboard wireless card, so yo
 >
 >tar -xJf re4son-kernel_current.tar.xz
 >
->./re4son-kernel*/isntall.sh
+>./re4son-kernel*/install.sh
 >
 and just yes to everything that it asks for
 
