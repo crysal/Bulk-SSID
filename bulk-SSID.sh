@@ -3,8 +3,7 @@
 if  [ "$1" == "--install" ]
 then
 	wget https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2020.2_all.deb
-	apt-get install ./kali-archive-keyring_2020.2_all.deb --assume-yes
-	apt-get install mdk3 macchanger --assume-yes
+	apt-get install ./kali-archive-keyring_2020.2_all.deb mdk3 macchanger --assume-yes
 	rm ./kali-archive-keyring_2020.2_all.deb
 	echo -e "to activate when powered on\nput this in crontab -e \n@reboot sudo /./home/pi/Bulk-SSID/bulk-ssid.sh"
 	exit
