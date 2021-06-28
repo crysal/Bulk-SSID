@@ -2,9 +2,7 @@
 A way to advertise a list of SSID's.- buildt for Raspberry PI Zero W, can be used with most linux distros
 You must have a wireless card/adapter that supports monitor mode.
 
-_if you run a raw Raspbarry PI Zero w, upgrade the kernel to the re4son_
-
-## Upgrade raspberrian lite kernel to support monitor mode for the onboard wireless card
+## Optional: Upgrade Raspberry Pi OS Lite kernel for onboard wireless monitor mode
 
 >wget  -O re4son-kernel_current.tar.xz https://re4son-kernel.com/download/re4son-kernel-current/
 >
