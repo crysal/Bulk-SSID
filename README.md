@@ -1,6 +1,8 @@
 # Bulk-SSID
 A way to advertise a list of SSID's.- buildt for Raspberry PI Zero W, can be used with most linux distros
-You must have a wireless card/adapter that supports monitor mode. _if you run a raw Raspbarry PI Zero w, upgrade the kernel to the re4son_
+You must have a wireless card/adapter that supports monitor mode.
+
+_if you run a raw Raspbarry PI Zero w, upgrade the kernel to the re4son_
 
 
 ## Install & Auto start
