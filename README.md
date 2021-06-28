@@ -11,6 +11,7 @@ _if you run a raw Raspbarry PI Zero w, upgrade the kernel to the re4son_
 >tar -xJf re4son-kernel_current.tar.xz
 >
 >./re4son-kernel*/isntall.sh
+>
 and just yes to everything that it asks for
 
 ## Install & Auto start
