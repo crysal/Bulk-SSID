@@ -4,7 +4,7 @@ You must have a wireless card/adapter that supports monitor mode.
 
 ## Optional: Upgrade Raspberry Pi OS Lite kernel for onboard wireless monitor mode
 
-if you are running on a pi zero and want to use the onboard wireless card, so you don't run around with a bulky external antenna, you can upgrade the kernel to support wireless monitor mode on the built in wireless card
+if you are running on a pi zero and want to use the onboard wireless card, so you don't run around with a bulky external antenna, you can upgrade the kernel to support wireless monitor mode on the built in wireless card. For this project I use the re4son kernel
 
 >wget  -O re4son-kernel_current.tar.xz https://re4son-kernel.com/download/re4son-kernel-current/
 >
