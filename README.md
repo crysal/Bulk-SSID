@@ -5,13 +5,13 @@ You must have a wireless card/adapter that supports monitor mode.
 _if you run a raw Raspbarry PI Zero w, upgrade the kernel to the re4son_
 
 ## Upgrade raspberrian lite kernel to support monitor mode for the onboard wireless card
-`
-wget  -O re4son-kernel_current.tar.xz https://re4son-kernel.com/download/re4son-kernel-current/
 
-tar -xJf re4son-kernel_current.tar.xz
+>wget  -O re4son-kernel_current.tar.xz https://re4son-kernel.com/download/re4son-kernel-current/
+>
+>tar -xJf re4son-kernel_current.tar.xz
+>
+>./re4son-kernel*/isntall.sh
 
-./re4son-kernel*/isntall.sh
-`
 
 ## Install & Auto start
 0. Download the git
