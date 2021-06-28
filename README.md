@@ -22,7 +22,7 @@ and just yes to everything that it asks for
 
 1. Run the install script
 
-`./bulk-SSID.sh --install` This should most likely install all the things you need.
+`./bulk-SSID.sh --install` This should most likely install all the things you need. (when it comes up and askes for macchanger to auto change, select **yes**)
 
 _If you are reading this in the far future you might need to edit the **kali-archive-keyring_2020.2_all.deb** to what ever is the newest at https://http.kali.org/kali/pool/main/k/kali-archive-keyring/_
 
